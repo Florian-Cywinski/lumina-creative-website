@@ -82,10 +82,33 @@ img {
     font-weight: 600;
 }
 
+/* Hero */
+.hero {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    line-height: 1.4;
+    font-weight: normal;
+}
+
 /* Media Queries */
 @media (max-width: 768px) {
     .header .header-flex {
         flex-direction: column;
         gap: 1.5rem;
+    }
+
+    .hero {
+        height: 300px;
+    }
+
+    .hero h2 {
+        font-size: 1.8rem;
     }
 }
